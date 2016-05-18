@@ -1,0 +1,32 @@
+<header class="site-head homepage" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+	<div class="ui large borderless menu link_menu_banner">
+	    <a class="active item" href="{{@blog.url}}">HOME</a>
+	    <a class="item" href="{{@blog.url}}/tag/gallery/">GALLERY</a>
+	    <a class="item" href="{{@blog.url}}/contact/">CONTACT</a>
+	    <a class="item" href="{{@blog.url}}/tag/about/">ABOUT</a>
+	    <div class="ui dropdown link item menu_dropdown">
+	        <span class="text">REFLECTIONS</span>
+	        <i class="dropdown icon"></i>
+	        <div class="menu">
+	            <a class="item" href="{{@blog.url}}/tag/spirituality/">Spirituality</a>
+	            <a class="item" href="{{@blog.url}}/tag/girls-corner/">Girls Corner</a>
+	          
+	        </div>
+	    </div>
+	</div>
+
+	<div class="vertical">
+		<div role='banner' class="header_typesome">
+			{{#if @blog.logo}}<a class="logo_typesome" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+			<h1 class="blogtitle_typesome">
+			<a title="{{@blog.title}}" href='{{@blog.url}}'>
+			{{{@blog.title}}}
+			</a>
+			</h1>
+			<p class="blogdescription_typesome">
+			{{@blog.description}}
+			</p>
+		</div>
+	</div>
+</header>
+

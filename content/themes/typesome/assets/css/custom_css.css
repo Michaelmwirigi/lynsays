@@ -1,0 +1,102 @@
+body{
+	height: auto;
+}
+.postcontent_typesome .gallery_images p img{
+	display: block !important;
+}
+
+
+.postcontent_typesome .gallery_images p{
+	/*display: none;*/
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.main_typesome.gallery{
+	max-width: 90% ;
+	margin-bottom: 4rem;
+}
+
+.gallery_loop img{
+	max-width: 100%;
+	display: block;
+}
+.all_gallery{
+	position: relative;
+	width: calc(33% - 2rem);
+	margin-right: 1rem;
+	/*float: left;*/
+	display: inline-block;
+	margin-bottom: 1rem !important;
+	vertical-align: bottom;
+}
+.all_gallery:nth-of-type(3n){
+	margin-right: 0;
+}
+
+.gallery_loop .caption_loop{
+	font-size: 1.3rem;
+	padding:0.5rem 1rem ;
+	width: calc(100% - 2rem);
+	min-height: 3rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	color: #CCCCCC;
+	z-index: 2;
+}
+.site-head.homepage{
+	height: 100vh;
+}
+.site-head.custom_header{
+	height: auto;
+	margin-bottom: 1rem;
+}
+.site-head.custom_header .logo_typesome img{
+	width: 170px;
+	height: 170px;
+}
+.site-head.custom_header .header_typesome{
+	margin: 0 auto;
+}
+
+.site-head.homepage .logo_typesome img{
+	width: 500px !important;
+	height: 500px !important;
+}
+
+.hidden.menu.link_menu {
+    display: none !important;
+}
+.link_menu_banner{
+	width: initial;
+	background-color: initial !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	display: inline-block;
+	padding:0 3rem !important;
+	font-family: 'Noto Serif', serif !important;
+	font-size: 1.6rem !important;
+}
+.link_menu_banner .item{
+	font-weight: 600 !important;
+}
+
+.link_menu_banner .menu_dropdown .menu{
+	background-color: initial !important;
+}
+
+.link_menu_banner .menu_dropdown .menu .item{
+	font-weight: 600 !important;
+}
+
+.link_menu{
+	padding:0 3rem !important;
+	font-size: 1.4rem !important;
+	font-family: 'Noto Serif', serif !important;
+}
+.vertical{
+	display: inline-block !important;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Docs - Typesome Theme</title>
+    <link rel="stylesheet" type="text/css" href="http://golem.io/assets/css/readme.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <header>
+        <h1>Documentation of <a href="http://http://golem.io/ghost-themes/typesome/">Typesome Theme for Ghost</a> - by golem.io</h1>
+    </header>
+        <nav>
+            <h4>Table of contents</h4>
+            <ul>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Configuring">Configuring</a></li>
+                <li><a href="#Installing">Installing</a></li>
+                <li><a href="#Changelog">Changelog</a></li>
+                <li><a href="#License">License</a></li>
+            </ul>
+        </nav>
+
+    <section id="Features">
+    <h2>Features</h2>
+    
+    <ul>
+        <li>Fully responsive design</li>
+        <li>Content focused</li>
+        <li>Major browser compatibility</li>
+        <li>Free lifetime updates</li>
+        <li>Disqus commenting system</li>
+        <li>Google Analytics</li>
+        <li>Sharing options</li>
+        <li>Responsive embedded videos</li>
+        <li>Font Awesome included</li>
+    </ul>
+    </section>
+    
+    <section id="Configuring">   
+        <h2>Configuring</h2>
+        <p>Before turning on your theme live, you should probably set up some of the functions you want to use.</p>
+        <p class="note"><i>Note: Most configurable files are located in <b>typesome/partials/custom/</b> folder.</i></p>
+
+        <h3>I. Various metatags - <u>meta.hbs</u></h3>
+        <p>Open <b>meta.hbs</b> file with your text editor and enter your data in the fields you want to use.</p>
+
+        <div class="example">     
+            <h4>For example:</h4>
+                <ul>
+                    <li>
+                    <h5>[twitter:site] Used for Twitter Card identification, the twitter @username of the owner of this card's domain. <a href="https://dev.twitter.com/docs/cards/markup-reference">(read more)</a></h5>
+                    <textarea class="code"><meta name="twitter:site" content="@YourTwitterBlog" /></textarea>
+                    </li>
+
+                    <li>
+                    <h5>[twitter:creator] Used for Twitter Card identification, the twitter @username of the author of this content. <a href="https://dev.twitter.com/docs/cards/markup-reference">(read more)</a></h5>
+                    <textarea class="code"><meta name="twitter:creator" content="@YourTwitter" /> </textarea>
+                    </li>
+
+                    <li>
+                    <h5>[google-site-verification] Used for Google Webmaster Tools identification. <a href="https://support.google.com/webmasters/answer/35179">(read more)</a></h5>
+                    <textarea class="code"><meta name="google-site-verification" content="-dhsoFQadgDKJR7BsB6bc1j5yfqjUpg_b-1pFjr7o3x" /></textarea>
+                    </li>
+
+                    <li>
+                    <h5>[fb:admins] Used for Facebook Insights identification. <a href="https://developers.facebook.com/docs/insights/">(read more)</a></h5>
+                    <textarea class="code"><meta property="fb:admins" content="774635482" /> </textarea>
+                    </li>
+                </ul>
+        </div>
+
+
+        <h3>II. Disqus comments - <u>default.hbs</u> &amp; <u>post.hbs</u></h3>
+        <p>To connect Disqus commenting system, open <b>default.hbs</b> and <b>post.hbs</b> files with your text editor. Now find and replace Disqus shortname - (<i>example</i>) with your own and save the files. <a href="http://help.disqus.com/customer/portal/articles/466208">(read more)</a> or see <a href="https://help.disqus.com/customer/portal/articles/1454924-ghost-installation-instructions">Ghost Installation Instructions for Disqus</a></p>
+
+        <h3>III. Google Analytics - <u>google_analytics.hbs</u></h3>
+        <p>To connect Google Analytics, simply open <b>google_analytics.hbs</b> file with your text editor and replace (<i>UA-XXXXXX-XX</i>) with your own Google Analytics <b>ID</b> and save the file. <a href="https://support.google.com/analytics/answer/1032385">(read more)</a></p>
+
+        <h3>IV. Social media icons - <u>footer.hbs</u></h3>
+        <p>To add your social media links in footer, simply open <b>footer.hbs</b> file with your text editor, paste your links in the right place and save the file.</p>
+        <div class="example">
+            <h4>For example:</h4>
+                <ul>
+                    <li>
+                    <h5>Link for Twitter profile in href=".." quotation marks</h5>
+                    <textarea class="code"><li><span class="tooltip">Twitter</span><a class="fa fa-twitter" href="https://twitter.com/golemioThemes"></a></li></textarea>
+                    </li>
+                </ul>
+            </div>
+        <p class="note">Note: You can add a different footer icons, by using <b>css classes</b> (like: <u>fa-twitter</u> for example) from <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">Font Awesome</a>, which are included.</p>
+        
+    </section>  
+    
+    <section id="Installing">
+    <h2>Installing</h2>
+        <ul class="step">
+            <li>Copy the unziped <b>Typesome</b> folder into your Ghost theme directory <b>ghost/content/themes</b></li>
+            <li>Restart Ghost and log in to your dashboard.</li>
+            <li>In settings under themes select <b>Typesome</b> and save.</li>
+            <li>Done, your new theme is now up and runnig.</li>
+        </ul>
+    </section>
+    
+    <section id="Changelog">
+        <h2>Changelog</h2>
+        <p>For detailed history of changes, see our Changelog at - <a href="http://golem.io/ghost-themes/typesome/changelog/">golem.io/ghost-themes/typesome/changelog</a></p>
+    </section>
+    
+    <section id="License">  
+        <h2>License</h2>
+        <p>Simple License - <a href="http://golem.io/license/">golem.io/license</a> &copy; 2014 golem.io</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{{!< default}}
+{{> header_custom}}
+{{> menu}}
+<main class="main_typesome gallery" role="main">
+	<header class="postheader_typesome" style=" margin: 0 0 3rem 8rem;	">
+			
+				<h1 class="posttitle_typesome">Gallery</h1>
+				
+		
+			</header>
+	{{#foreach posts}}
+
+	{{#has tag="gallery"}}
+		<div class="article_typesome all_gallery">
+		
+			<section class="gallery_loop">
+				<img src="{{image}}" alt="{{{title}}}">
+				<div class="caption_loop">{{excerpt words="10"}}</div>
+			</section>
+		</div>
+		{{/has}}
+	{{/foreach}}
+
+	
+
+</main>
+
+{{> footer}}
