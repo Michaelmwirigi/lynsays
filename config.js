@@ -20,7 +20,8 @@ config = {
                     user: 'postmaster@sandbox75c28dbf74b14dcc9e1233dd754cb735.mailgun.org', // mailgun username
                     pass: 'b2659f93a730d24c1722dd3cb7b49a17'  // mailgun password
                 }
-            },
+            }
+        },
         database: {
             client: 'sqlite3',
             connection: {
