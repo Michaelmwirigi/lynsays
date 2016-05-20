@@ -5,6 +5,9 @@ body{
 	display: block !important;
 }
 
+header .blogtitle_typesome, .blogdescription_typesome{
+	display: none;
+}
 
 .postcontent_typesome .gallery_images p{
 	/*display: none;*/
