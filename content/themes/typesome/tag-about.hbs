@@ -32,11 +32,6 @@
 			
 			
 			<footer class="excerptfooter_typesome" >
-				<section class="read_typesome">
-					<a class="more_typesome" href="{{{url}}}">Read More</a>
-					<span></span> 
-					<a class="comments_typesome" href="{{url}}#disqus_thread" data-disqus-identifier="{{id}}">Comments</a>
-				</section>
 				
 				<section class="share_typesome"> 
 					<h4>Share: &nbsp;</h4>
@@ -50,12 +45,7 @@
 	{{/has}}
 	{{/foreach}}
 
-	{{#if pagination}}
-	<div class="pagination_typesome">
-		{{{pagination}}}
-	</div>
-		
-	{{/if}}
+	
 
 </main>
 {{> footer}}
